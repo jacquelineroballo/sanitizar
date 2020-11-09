@@ -1,0 +1,273 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    z-index: 99;
+}
+/* Hero Img */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(assets/Cabina.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(0.5);
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 0.625rem;
+}
+
+.hero-title {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.hero-subtitle {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Fin Hero Img */
+
+/* separadorUno */
+
+.separadorUno {
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1599455975 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1599455975 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 72px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1599455975 .shape-fill {
+    fill: #ffffff;
+}
+
+/* fin separadorUno */
+
+/* Texto Sobre Nosotros & explicacion corta */
+
+.bla {
+    padding: 85px 40px;
+}
+
+.nosotros {
+    font-size: 1.2em;
+}
+
+.sanitizar {
+    padding-bottom: 30px;
+}
+
+.equipo {
+    padding-bottom: 30px;
+}
+
+.explicacion {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #FFFFFF, 2px 2px 2px rgba(206, 206, 206, 0);
+    padding-bottom: 20px;
+}
+
+/* Fin texto Sobre Nosotros & explicacion corta */
+
+/* separador Tres */
+
+.separadorTres {
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1599455976 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1599455976 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 72px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1599455976 .shape-fill {
+    fill: #ffffff;
+}
+
+/* fin separador Tres */
+
+/* fotos equipo */
+
+.centro {
+    padding-left: 25%;
+}
+
+.rounded {
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.text-primary {
+    padding-bottom: 20px;
+}
+
+/*fin fotos equipo */
+
+/* iconos */
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icon {
+    border-radius: 50%;
+    padding: 15px;
+    background: linear-gradient(45deg, lightblue, royalblue);
+    margin: 20px;
+    color: white;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+.icon:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-box-shadow: 1px 1px 21px 6px rgba(61, 105, 225, 0.48);
+    box-shadow: 1px 1px 21px 6px rgba(61, 105, 225, 0.48);
+}
+
+/* fin iconos */
+
+/* mercado */
+
+.map-container-5 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-5 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.img-equipo {
+    width: 170px;
+    height: 170px;
+    border: 5px solid #4285F4;
+}
+
+.container-sm {
+    color: #4285F4;
+    position: absolute;
+    padding: 0%;
+    width: 100%;
+    height: 20px;
+    background-color: white;
+}
+
+.navbar-expand-lg {
+    width: 100%;
+}
+
+
+/*separadorFooter*/
+.separadorFooter {
+    position: relative;
+}
+.custom-shape-divider-bottom-1602600697 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1602600697 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 52px;
+}
+
+.custom-shape-divider-bottom-1602600697 .shape-fill {
+    fill: white;
+}
+
+/* footer */
+
+.unique-color-dark {
+    background-color: white !important;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.custom-color {
+    background-color: #7289DA !important
+}
+
+/*fin footer*/
